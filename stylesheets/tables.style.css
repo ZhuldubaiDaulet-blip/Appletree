@@ -1,0 +1,64 @@
+table.schedule-table {
+  overflow: hidden;
+  table-layout: auto!important;
+}
+
+table.table {
+  word-wrap: break-word;
+}
+
+table.schedule-table tr:hover {
+  background-color: rgba(0, 204, 255, 0.1);
+}
+
+table.schedule-table tr{
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+
+.btn-control{
+	border-width: 2px;
+	border-style: solid;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: unset;
+}
+.btn-control:hover{
+	border-color: #46bdb2;
+}
+.btn-control img{
+  display: flex;
+	width: 1.5rem;
+	height: 1.5rem;
+  margin:auto;
+}
+
+table.schedule-table td,
+table.schedule-table th {
+  position: relative;
+}
+
+table i{
+  color: rgb(168, 168, 168);
+  pointer-events: none;
+}
+
+table.schedule-table td:hover::after,
+table.schedule-table th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 204, 255,0.2);
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+
+.hover:hover{
+  background-color: #e2e6ea;
+}
+.hover{
+  transition: background-color .15s ease-in-out;
+  background-color: #f8f9fa;

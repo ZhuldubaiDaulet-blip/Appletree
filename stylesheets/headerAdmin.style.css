@@ -1,0 +1,22 @@
+#headerdiv{
+	background-color: #004156;
+}
+.main_text{
+	font-family: Segoe UI;
+}
+#header-logo{
+	width: 170px; height: 150px;
+}
+.logout_link{
+	color: orange;
+	border-width: 2px;
+	border-color: orange;
+}
+.logout_link:hover{
+ 	color: lightblue;
+	border-color: lightblue;
+}
+section{
+	padding-bottom:3rem;
+	padding-top: 3rem;
+}

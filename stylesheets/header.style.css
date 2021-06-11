@@ -1,0 +1,38 @@
+#headerdiv{
+	background-color: #004156;
+}
+.main_text{
+	color: lightgreen;
+	font-family:Courier;
+}
+.main_text:hover{
+	color: gold;
+}
+a.disabled{
+	pointer-events: none;
+  	cursor: default;
+}
+#header-logo{
+	width: 170px; height: 150px;
+}
+.application_link{
+	color: pink;
+	border-width: 2px;
+	border-color: pink;
+}
+.application_link:hover{
+ 	color: gold;
+ 	text-decoration: none;
+	border-color: gold;
+}
+section {
+	padding-bottom:6rem;
+}
+#header-logo{
+	transition: 0.5s;
+}
+.stuck{
+	position: fixed;
+	width: 100%;
+	z-index: 1030;
+}

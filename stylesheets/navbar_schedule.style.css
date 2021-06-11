@@ -1,0 +1,18 @@
+#navbar{
+	position: fixed;
+	display: block;
+    background: blue;
+	top: 0px;
+	right: 0px;
+	z-index: 1030;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s linear;
+}
+
+.navbar.not_hidden{
+	visibility: visible !important;
+	opacity: 1 !important;
+}

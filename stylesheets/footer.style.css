@@ -1,0 +1,18 @@
+@media (min-width: 992px) {
+  .social-media-img{
+	width: 5vw;
+  }
+}
+.social-media-img{
+	height: 100%;
+}
+.color-bcbec0{
+	color: #BCBEC0;
+}
+#section-footer{
+	padding-bottom: 0px;
+	padding-top: 12rem;
+}
+footer{
+	background-color: #004156;
+}

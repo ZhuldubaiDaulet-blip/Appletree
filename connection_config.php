@@ -1,7 +1,7 @@
 <?php
 	// Variables required for extablishing the connection
 	$driver = 'mysql';
-	$host = 'localhost';
+	$host = '127.0.0.1';
 	$username = 'root';
 	$password = '';
 	$appletree_general = 'appletree_general';

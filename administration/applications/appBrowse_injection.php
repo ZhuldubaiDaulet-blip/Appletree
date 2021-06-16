@@ -1,5 +1,5 @@
-<?php 
-	require_once($_SERVER['DOCUMENT_ROOT'].'/config.php'); 
+<?php
+	require_once($_SERVER['DOCUMENT_ROOT'].'/config.php');
 	require_once($connection_config);
 	session_start();
 	// Block access for unathorized users
@@ -46,8 +46,8 @@
 	</div>
 	<!-- Control buttons -->
 	<div class="w-50 mt-3 d-flex">
-		<button class="btn btn-success w-50 rounded-pill py-2 mx-2" onclick="appAdd(<?=$_POST['id']?>, '<?=$_POST['role']?>')">Accept</button>
-		<button class="btn btn-warning w-50 rounded-pill py-2 mx-2" onclick="appDel(<?=$_POST['id']?>, '<?=$_POST['role']?>')">Reject</button>
+		<button class="btn btn-success w-50 rounded-pill py-2 mx-2" onclick="appAdd(<?=$_POST['id']?>, '<?=$_POST['role']?>')">Принять</button>
+		<button class="btn btn-warning w-50 rounded-pill py-2 mx-2" onclick="appDel(<?=$_POST['id']?>, '<?=$_POST['role']?>')">Отклонить</button>
 	</div>
 <script>
 	$(document).ready(function(){
